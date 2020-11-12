@@ -1,18 +1,23 @@
 body {
     font-family: Consolas, monospace;
+    overflow: hidden;
 }
 
 #drawing {
     height: 90%;
-    /* border: 1px solid #cfcfcf; */
     margin-right: 20%;
 }
 
 #wrapper {
     margin: auto;
     text-align: center;
-    width: 100%;
+    width: 60%;
     height: 90vh;
+}
+@media only screen and (max-width: 600px) {
+    #wrapper {
+        width: 100%;
+    }
 }
 
 #inputs {
@@ -25,15 +30,31 @@ body {
 
 .input {
     text-align: left;
-    padding-bottom: 24px;
+    padding: 3px 3px 20px 3px;
+    margin-bottom: 16px;
     font-size: 12px;
+    background-color: #eeeeee;
+    border-radius: 3px;
 }
 
 .input input {
     vertical-align: middle;
-    width: 95%;
+    width: calc(100% - 4px);
 }
 
 .input label {
     margin-top: 0;
+}
+
+label .value {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+label .name {
+    font-weight: bold;
+    float: left;
+    padding: 0;
+    margin: 0;
 }
