@@ -20,7 +20,7 @@ body {
     right: 10px;
     top: 80px;
     background: white;
-    width: 200px;
+    width: 300px;
 }
 
 .input {
@@ -29,6 +29,11 @@ body {
     font-size: 12px;
 }
 
-input {
+.input input {
     vertical-align: middle;
+    width: 95%;
+}
+
+.input label {
+    margin-top: 0;
 }
