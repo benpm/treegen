@@ -1,0 +1,34 @@
+body {
+    font-family: Consolas, monospace;
+}
+
+#drawing {
+    height: 90%;
+    /* border: 1px solid #cfcfcf; */
+    margin-right: 20%;
+}
+
+#wrapper {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+}
+
+#inputs {
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    background: white;
+    width: 200px;
+}
+
+.input {
+    text-align: left;
+    padding-bottom: 24px;
+    font-size: 12px;
+}
+
+input {
+    vertical-align: middle;
+}
